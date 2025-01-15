@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.portafoli{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.projecte{
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+    background-color: #00ccff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+h3 {
+    color: #0027ff;
+}
+p{
+    color: #555;
+    line-height: 1.5;
+}
+.boto{
+    display:inline-block;
+    padding:10px 20px;
+    margin-top: 15px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition:background-color 0.3s ease;
+}
